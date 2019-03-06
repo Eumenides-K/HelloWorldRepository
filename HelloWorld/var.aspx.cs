@@ -23,8 +23,8 @@ namespace HelloWorld
             //f=(3=<b<=4)错误!
             e1 += a;//等效于e1=e1+a
             Response.Write(a/b+"</br>");//输出3，整数除以整数还是整数，数据类型不变
-            Response.Write("<front color=red>"+b+"</front>");
-            //byte i =g + h;//？？
+            Response.Write("<front color=red>"+b+"</front>"+c+g+d+h);
+            //byte i =g + h;//g+h依然是byte
         }
     }
 }

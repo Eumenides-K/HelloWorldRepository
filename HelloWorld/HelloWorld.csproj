@@ -71,6 +71,7 @@
     <Content Include="Default.aspx" />
     <Content Include="getMax.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="homeworkGetTriangularArea.aspx" />
     <Content Include="output.aspx" />
     <Content Include="var.aspx" />
     <Content Include="Web.config" />
@@ -92,6 +93,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="homeworkGetTriangularArea.aspx.cs">
+      <DependentUpon>homeworkGetTriangularArea.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="homeworkGetTriangularArea.aspx.designer.cs">
+      <DependentUpon>homeworkGetTriangularArea.aspx</DependentUpon>
     </Compile>
     <Compile Include="output.aspx.cs">
       <DependentUpon>output.aspx</DependentUpon>
