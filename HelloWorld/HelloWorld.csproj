@@ -68,15 +68,32 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="10!.aspx" />
+    <Content Include="ChickenRabbit.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="getMax.aspx" />
     <Content Include="Global.asax" />
     <Content Include="homeworkGetTriangularArea.aspx" />
+    <Content Include="homeworkPrintChar.aspx" />
     <Content Include="output.aspx" />
     <Content Include="var.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="10!.aspx.cs">
+      <DependentUpon>10!.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="10!.aspx.designer.cs">
+      <DependentUpon>10!.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ChickenRabbit.aspx.cs">
+      <DependentUpon>ChickenRabbit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChickenRabbit.aspx.designer.cs">
+      <DependentUpon>ChickenRabbit.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -100,6 +117,13 @@
     </Compile>
     <Compile Include="homeworkGetTriangularArea.aspx.designer.cs">
       <DependentUpon>homeworkGetTriangularArea.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="homeworkPrintChar.aspx.cs">
+      <DependentUpon>homeworkPrintChar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="homeworkPrintChar.aspx.designer.cs">
+      <DependentUpon>homeworkPrintChar.aspx</DependentUpon>
     </Compile>
     <Compile Include="output.aspx.cs">
       <DependentUpon>output.aspx</DependentUpon>

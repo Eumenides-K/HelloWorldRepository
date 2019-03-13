@@ -19,8 +19,8 @@ namespace HelloWorld
             double num1 = double.Parse(txtNum1.Text);
             double num2 = double.Parse(txtNum2.Text);
             double num3 = double.Parse(txtNum3.Text);
-            string a = "1";
-            string b = "0";
+            string a = "mm";
+            string b = "gg";
             double p = (num1 + num2 + num3) / 2;
             double s = Math.Sqrt(p * (p - num1) * (p - num2) * (p - num3));
             if (num1 + num2 <= num3 || num1 + num3 <= num2 || num2 + num3 <= num1)
