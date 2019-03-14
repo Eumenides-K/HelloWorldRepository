@@ -19,9 +19,9 @@ namespace HelloWorld
             double maxLineno = double.Parse(TextBox1.Text);
             int lineno, i = 0;
             string var="IGNB";
-            if (maxLineno > 26)
+            if (maxLineno > 26|| maxLineno<1)
             {
-                Response.Write("行数不能超过26");
+                Response.Write("输入的行数不合法");
             }
             else
             { for (lineno = 1; lineno <= maxLineno; lineno++)

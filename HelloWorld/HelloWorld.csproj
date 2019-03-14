@@ -75,6 +75,7 @@
     <Content Include="Global.asax" />
     <Content Include="homeworkGetTriangularArea.aspx" />
     <Content Include="homeworkPrintChar.aspx" />
+    <Content Include="homeworkStringOffset.aspx" />
     <Content Include="output.aspx" />
     <Content Include="var.aspx" />
     <Content Include="Web.config" />
@@ -124,6 +125,13 @@
     </Compile>
     <Compile Include="homeworkPrintChar.aspx.designer.cs">
       <DependentUpon>homeworkPrintChar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="homeworkStringOffset.aspx.cs">
+      <DependentUpon>homeworkStringOffset.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="homeworkStringOffset.aspx.designer.cs">
+      <DependentUpon>homeworkStringOffset.aspx</DependentUpon>
     </Compile>
     <Compile Include="output.aspx.cs">
       <DependentUpon>output.aspx</DependentUpon>
