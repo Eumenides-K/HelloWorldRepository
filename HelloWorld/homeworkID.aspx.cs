@@ -20,8 +20,6 @@ namespace HelloWorld
             a = txtNum.Text;
             string id = "";
             id = a.ToLower();
-            string[] rule = { "1", "0", "x", "9", "8", "7", "6", "5", "4", "3", "2" };
-            string[] rule0 = { "1", "0", "9", "8", "7", "6", "5", "4", "3", "2" };
             string[] last = { "1", "0", "x", "9", "8", "7", "6", "5", "4", "3", "2" };
             int[] xishu = new int[17] { 7, 9, 10, 5, 8, 4, 2, 1, 6, 3, 7, 9, 10, 5, 8, 4, 2 };
             string id0 = "";
@@ -30,8 +28,9 @@ namespace HelloWorld
             string month = id.Substring(10, 2);
             string date = id.Substring(12, 2);
             string sex;
+            string x = "x";
             int gender = int.Parse(id.Substring(16, 1));
-            if(gender%2==0)
+            if (gender % 2 == 0)
             {
                 sex = "女";
             }
@@ -39,18 +38,18 @@ namespace HelloWorld
             {
                 sex = "男";
             }
-            if (id.Length!=18)
+            if (id.Length != 18)
             {
                 Response.Write("输入的身份证号码不合法");
             }
             else
             {
-                for (int i = 0;i<=16;i++)
+                for (int i = 0; i <=16; i++)
                 {
-                    if (char.IsNumber(id, i))
+                    if (char.IsNumber(id, i)&& (char.IsNumber(id, 17) || id.Substring(17, 1).Equals(x)))
                     {
                         int sum = 0;
-                        for (int j = 0; j <= 16; j++)
+                        for (int j = 0; j <=16; j++)
                         {
                             int idx = int.Parse(id.Substring(j, 1));
                             int m = idx * xishu[j];
@@ -76,7 +75,7 @@ namespace HelloWorld
                 }
             }
 
-            }
-            }
         }
-    
+    }
+}
+
