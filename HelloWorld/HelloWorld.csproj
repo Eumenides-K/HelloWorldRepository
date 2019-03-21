@@ -74,7 +74,9 @@
     <Content Include="getMax.aspx" />
     <Content Include="Global.asax" />
     <Content Include="homeworkGetTriangularArea.aspx" />
+    <Content Include="homeworkID.aspx" />
     <Content Include="homeworkPrintChar.aspx" />
+    <Content Include="homeworkSqrt.aspx" />
     <Content Include="homeworkStringOffset.aspx" />
     <Content Include="output.aspx" />
     <Content Include="var.aspx" />
@@ -119,12 +121,26 @@
     <Compile Include="homeworkGetTriangularArea.aspx.designer.cs">
       <DependentUpon>homeworkGetTriangularArea.aspx</DependentUpon>
     </Compile>
+    <Compile Include="homeworkID.aspx.cs">
+      <DependentUpon>homeworkID.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="homeworkID.aspx.designer.cs">
+      <DependentUpon>homeworkID.aspx</DependentUpon>
+    </Compile>
     <Compile Include="homeworkPrintChar.aspx.cs">
       <DependentUpon>homeworkPrintChar.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="homeworkPrintChar.aspx.designer.cs">
       <DependentUpon>homeworkPrintChar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="homeworkSqrt.aspx.cs">
+      <DependentUpon>homeworkSqrt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="homeworkSqrt.aspx.designer.cs">
+      <DependentUpon>homeworkSqrt.aspx</DependentUpon>
     </Compile>
     <Compile Include="homeworkStringOffset.aspx.cs">
       <DependentUpon>homeworkStringOffset.aspx</DependentUpon>
