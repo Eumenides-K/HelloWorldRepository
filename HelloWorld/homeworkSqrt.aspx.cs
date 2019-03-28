@@ -34,7 +34,17 @@ namespace HelloWorld
                 {
                     g = g + h;
                 }
-                Response.Write("算术平方根为"+g + "精确值为"+Math.Sqrt(c));
+                double f = g - h;
+                double a = g * g - c;
+                double b = c - f * f;
+                if (a > b)
+                {
+                    Response.Write("算术平方根为" + f + "精确值为" + Math.Sqrt(c));
+                }
+                else
+                {
+                    Response.Write("算术平方根为" + g + "精确值为" + Math.Sqrt(c));
+                }
             }
         }
     }

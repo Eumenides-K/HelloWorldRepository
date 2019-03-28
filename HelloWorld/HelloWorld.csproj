@@ -71,6 +71,7 @@
     <Content Include="10!.aspx" />
     <Content Include="ChickenRabbit.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="ExamplePrime.aspx" />
     <Content Include="getMax.aspx" />
     <Content Include="Global.asax" />
     <Content Include="homeworkGetTriangularArea.aspx" />
@@ -79,6 +80,7 @@
     <Content Include="homeworkSqrt.aspx" />
     <Content Include="homeworkStringOffset.aspx" />
     <Content Include="output.aspx" />
+    <Content Include="tryCatch.aspx" />
     <Content Include="var.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -103,6 +105,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExamplePrime.aspx.cs">
+      <DependentUpon>ExamplePrime.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExamplePrime.aspx.designer.cs">
+      <DependentUpon>ExamplePrime.aspx</DependentUpon>
     </Compile>
     <Compile Include="getMax.aspx.cs">
       <DependentUpon>getMax.aspx</DependentUpon>
@@ -157,6 +166,13 @@
       <DependentUpon>output.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="tryCatch.aspx.cs">
+      <DependentUpon>tryCatch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tryCatch.aspx.designer.cs">
+      <DependentUpon>tryCatch.aspx</DependentUpon>
+    </Compile>
     <Compile Include="var.aspx.cs">
       <DependentUpon>var.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
