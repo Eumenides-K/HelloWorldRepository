@@ -24,7 +24,7 @@ namespace HelloWorld
                 else
                     Response.Write(x + "不是负数");
             }
-            catch (Exception ex)
+            catch
             {
                 Response.Write(x + "不是负数");
             }

@@ -74,8 +74,10 @@
     <Content Include="ExamplePrime.aspx" />
     <Content Include="getMax.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="HomeworkFunction.aspx" />
     <Content Include="homeworkGetTriangularArea.aspx" />
     <Content Include="homeworkID.aspx" />
+    <Content Include="HomeworkIsArmstrongNumber.aspx" />
     <Content Include="homeworkPrintChar.aspx" />
     <Content Include="homeworkSqrt.aspx" />
     <Content Include="homeworkStringOffset.aspx" />
@@ -123,6 +125,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="HomeworkFunction.aspx.cs">
+      <DependentUpon>HomeworkFunction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeworkFunction.aspx.designer.cs">
+      <DependentUpon>HomeworkFunction.aspx</DependentUpon>
+    </Compile>
     <Compile Include="homeworkGetTriangularArea.aspx.cs">
       <DependentUpon>homeworkGetTriangularArea.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -136,6 +145,13 @@
     </Compile>
     <Compile Include="homeworkID.aspx.designer.cs">
       <DependentUpon>homeworkID.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomeworkIsArmstrongNumber.aspx.cs">
+      <DependentUpon>HomeworkIsArmstrongNumber.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeworkIsArmstrongNumber.aspx.designer.cs">
+      <DependentUpon>HomeworkIsArmstrongNumber.aspx</DependentUpon>
     </Compile>
     <Compile Include="homeworkPrintChar.aspx.cs">
       <DependentUpon>homeworkPrintChar.aspx</DependentUpon>

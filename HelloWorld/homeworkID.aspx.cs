@@ -45,7 +45,7 @@ namespace HelloWorld
                 sex = "男";
             }        
             {
-                for (int i = 0; i <= 16; i++)
+                for (int i = 0; i <= 16;i++)
                 {
                     if (char.IsNumber(id, i) && (char.IsNumber(id, 17) || id.Substring(17, 1).Equals(x)))
                     {

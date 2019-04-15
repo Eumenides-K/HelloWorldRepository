@@ -29,7 +29,6 @@ namespace DataBase
             string sql = string.Format("select c_alt_name_chn from ALTNAME_DATA where c_personid in (select c_personid from BIOG_MAIN where c_name_chn='{0}')", name);
             SQLHelper sh = new SQLHelper();
             SqlDataReader sdr;
-            string real = "";
             try
             {
                 sh.RunSQL(sql, out sdr);
