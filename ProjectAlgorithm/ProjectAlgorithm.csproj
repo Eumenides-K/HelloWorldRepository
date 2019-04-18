@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ExampleDatabaseInsertOne.aspx" />
+    <Content Include="ExampleRangData.aspx" />
     <Content Include="ExampleRecursionDB.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config">
@@ -82,6 +83,13 @@
     </Compile>
     <Compile Include="ExampleDatabaseInsertOne.aspx.designer.cs">
       <DependentUpon>ExampleDatabaseInsertOne.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExampleRangData.aspx.cs">
+      <DependentUpon>ExampleRangData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExampleRangData.aspx.designer.cs">
+      <DependentUpon>ExampleRangData.aspx</DependentUpon>
     </Compile>
     <Compile Include="ExampleRecursionDB.aspx.cs">
       <DependentUpon>ExampleRecursionDB.aspx</DependentUpon>

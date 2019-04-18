@@ -36,7 +36,7 @@ namespace ProjectAlgorithm
             SQLHelper sh = new SQLHelper();
             string a = string.Format("select count (*) from DynastyHanEmperor where ename ='{0}'", name);
             int n = sh.RunSelectSQLToScalar(a);
-            if (n==0)
+            if (n == 0)
             {
                 Response.Write("该人名不存在，请重新输入！");
                 sh.Close();
@@ -47,8 +47,8 @@ namespace ProjectAlgorithm
                 DataSet ds1 = new DataSet();
                 sh.RunSQL(sql, ref ds1);
                 dt = ds1.Tables[0];
-                Response.Write("他的后代有:"+"</br>");
-                string findout = string.Format("ENAME='{0}'",name);
+                Response.Write("他的后代有:" + "</br>");
+                string findout = string.Format("ENAME='{0}'", name);
                 DataRow[] rows = dt.Select(findout);
                 string id = rows[0]["EID"].ToString();
                 PrintOffspring(id);
