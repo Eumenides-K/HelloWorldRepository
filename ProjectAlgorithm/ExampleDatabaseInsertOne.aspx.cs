@@ -27,7 +27,7 @@ namespace ProjectAlgorithm
             string sql1 = string.Format("insert into tblstudents (studentNo,studentName,gender,Major,Birthday)values('{0}','{1}',{2},'{3}','{4}')", studentNo, studentName, Gender, Major, Birthday);
             SQLHelper sh = new SQLHelper();
             string sql2 = string.Format("select count (*) from tblstudents where studentNo='{0}'", studentNo);//!!!字符串和日期｛0｝要加''
-            int x = sh.RunSelectSQLToScalar(sql2);
+            int x = sh.RunSelectSQLToScalar(sql2);//执行sql语句，返回第一行第一列的值
             try
             {
                 if (x == 0)

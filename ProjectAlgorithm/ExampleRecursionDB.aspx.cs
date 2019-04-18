@@ -28,7 +28,7 @@ namespace ProjectAlgorithm
         }
         private void PrintFather(string EID)
         {
-            //边界条件避免死循环
+            //边界条件避免死循环，也可以选择在if后跟else {return;}
             if (EID == "0")
                 return;
             string condition = string.Format("EID ='{0}'", EID);

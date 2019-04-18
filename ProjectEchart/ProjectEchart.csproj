@@ -77,7 +77,6 @@
   <ItemGroup>
     <Compile Include="ExampleRecursionDB.aspx.cs">
       <DependentUpon>ExampleRecursionDB.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ExampleRecursionDB.aspx.designer.cs">
       <DependentUpon>ExampleRecursionDB.aspx</DependentUpon>
