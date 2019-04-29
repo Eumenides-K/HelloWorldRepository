@@ -43,6 +43,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Common.AITools.Tvbboy, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dll\Common.AITools.Tvbboy.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -67,22 +71,41 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Evaluation_e.aspx" />
     <Content Include="ExampleDatabaseInsertOne.aspx" />
+    <Content Include="ExampleLinearRegression.aspx" />
     <Content Include="ExampleRangData.aspx" />
     <Content Include="ExampleRecursionDB.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="homeworkGradeRank.aspx" />
+    <Content Include="HomeworkLinearRegression.aspx" />
+    <Content Include="OutputRandom.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="HomeworkRecursionOffspring.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Evaluation_e.aspx.cs">
+      <DependentUpon>Evaluation_e.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Evaluation_e.aspx.designer.cs">
+      <DependentUpon>Evaluation_e.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ExampleDatabaseInsertOne.aspx.cs">
       <DependentUpon>ExampleDatabaseInsertOne.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ExampleDatabaseInsertOne.aspx.designer.cs">
       <DependentUpon>ExampleDatabaseInsertOne.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExampleLinearRegression.aspx.cs">
+      <DependentUpon>ExampleLinearRegression.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExampleLinearRegression.aspx.designer.cs">
+      <DependentUpon>ExampleLinearRegression.aspx</DependentUpon>
     </Compile>
     <Compile Include="ExampleRangData.aspx.cs">
       <DependentUpon>ExampleRangData.aspx</DependentUpon>
@@ -100,6 +123,27 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="homeworkGradeRank.aspx.cs">
+      <DependentUpon>homeworkGradeRank.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="homeworkGradeRank.aspx.designer.cs">
+      <DependentUpon>homeworkGradeRank.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomeworkLinearRegression.aspx.cs">
+      <DependentUpon>HomeworkLinearRegression.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeworkLinearRegression.aspx.designer.cs">
+      <DependentUpon>HomeworkLinearRegression.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OutputRandom.aspx.cs">
+      <DependentUpon>OutputRandom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OutputRandom.aspx.designer.cs">
+      <DependentUpon>OutputRandom.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SQLHelper.cs" />

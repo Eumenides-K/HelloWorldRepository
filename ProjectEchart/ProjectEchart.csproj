@@ -67,7 +67,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ExampleRecursionDB.aspx" />
     <Content Include="homeworkDatabaseDDL.aspx" />
     <Content Include="HomeworkGeoMapLabel.aspx" />
     <Content Include="ExampleGeoMapLabel.aspx" />
@@ -75,12 +74,6 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ExampleRecursionDB.aspx.cs">
-      <DependentUpon>ExampleRecursionDB.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="ExampleRecursionDB.aspx.designer.cs">
-      <DependentUpon>ExampleRecursionDB.aspx</DependentUpon>
-    </Compile>
     <Compile Include="homeworkDatabaseDDL.aspx.cs">
       <DependentUpon>homeworkDatabaseDDL.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
