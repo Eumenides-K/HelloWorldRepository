@@ -79,6 +79,7 @@
     <Content Include="Global.asax" />
     <Content Include="homeworkGradeRank.aspx" />
     <Content Include="HomeworkLinearRegression.aspx" />
+    <Content Include="HomeworkMonteCarloFootball.aspx" />
     <Content Include="OutputRandom.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -137,6 +138,13 @@
     </Compile>
     <Compile Include="HomeworkLinearRegression.aspx.designer.cs">
       <DependentUpon>HomeworkLinearRegression.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomeworkMonteCarloFootball.aspx.cs">
+      <DependentUpon>HomeworkMonteCarloFootball.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeworkMonteCarloFootball.aspx.designer.cs">
+      <DependentUpon>HomeworkMonteCarloFootball.aspx</DependentUpon>
     </Compile>
     <Compile Include="OutputRandom.aspx.cs">
       <DependentUpon>OutputRandom.aspx</DependentUpon>
